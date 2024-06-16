@@ -1,48 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Bordered form */
 
 body{
 	font-family:"Bauhaus 93 Regular";
 	background-color: #FFFFFF;
-	
 	
 }
 
 header{
 	text-align: left;
 	background-color: #725B47;
-	padding: 10px;
+	padding: 10px 0px;
 	 }
 
-.card-body{
-	padding-top: 50px;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-bottom: 150px;
-	
+.navbar-brand{
+	background-color: #725B47;
 }
-
-#sign in{
-	text-align: center;
-}
-
-form {
-    background-color: #FDDBA9;
-	padding: 20px;
-	text-align: center;
+ 
+#navbar{
+	background-color: #725B47;
 }
 
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 20px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+
+
 
 
 button {
@@ -61,35 +43,11 @@ button:hover {
 }
 
 
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-
-
 
 
 .container {
   padding: 16px;
 }
-
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-
-
-  span.psw {
-    display: block;
-    float: none;
-	text-align: center
-  }
-  
-
 
 
 footer {
@@ -266,4 +224,9 @@ footer .row {
     flex-wrap: wrap;
     text-align: left;
     margin-top: 20px;
+}
+
+#contactanos{
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
